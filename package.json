@@ -1,0 +1,16 @@
+{
+  "name": "even-darker-flat-syntax",
+  "theme": "even-darker-flat-syntax",
+  "version": "0.0.1",
+  "description": "A even darker flat syntax for the even-darker-flat-ui",
+  "keywords": [
+    "syntax",
+    "theme",
+    "dark"
+  ],
+  "repository": "https://github.com/staxx6/atom-even-darker-flat-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  }
+}
