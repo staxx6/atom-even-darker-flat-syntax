@@ -5,4 +5,10 @@ Designed for the even-darker-flat-ui theme: https://atom.io/themes/even-darker-f
 
 ![even-darker-flat-syntax](https://raw.githubusercontent.com/staxx6/atom-even-darker-flat-syntax/master/screenshot.png)
 
+[Other packages in screenshot]
+
+Tested languages with:
+  - Java
+  - HTML
+
 Uses the Monokai syntax theme as template, see: https://github.com/kevinsawicki/monokai

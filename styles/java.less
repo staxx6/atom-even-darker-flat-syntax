@@ -2,7 +2,6 @@
 
 .syntax--java {
   &.syntax--new {
-    //color: lighten(@pink, 10%) !important;
     color: @very-pink !important;
   }
 
@@ -14,5 +13,11 @@
     color: @blue;
   }
 
+  &.syntax--annotation {
+    color: @orange;
+  }
 
+  &.syntax--import {
+    color: darken(@pink, 15%);
+  }
 }
