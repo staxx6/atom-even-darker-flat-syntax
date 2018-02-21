@@ -1,12 +1,41 @@
 @import 'syntax-variables';
 
 .syntax--java {
+  &.syntax--class {
+    color: @green;
+  }
+
+  &.syntax--definition {
+    color: @ghost-white;
+  }
+
+  &.syntax--body {
+    color: @ghost-white;
+  }
+
+  &.syntax--bracket {
+    color: @ghost-white;
+  }
+
+  &.syntax--property {
+    color: @ghost-white;
+  }
+
+  &.syntax--parameter {
+    color: @ghost-white;
+  }
+
   &.syntax--new {
     color: @very-pink !important;
   }
 
   &.syntax--type {
+    color: @green;
     font-style: normal;
+  }
+
+  &.syntax--function {
+    color: @blue !important;
   }
 
   &.syntax--object {
@@ -18,6 +47,10 @@
   }
 
   &.syntax--import {
-    color: darken(@pink, 15%);
+    color: @ghost-white;
+  }
+
+  &.syntax--this {
+    color: @very-pink;
   }
 }
