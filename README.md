@@ -13,6 +13,7 @@ Other packages in screenshot:
 
 Tested languages:
   - Java
-  - HTML, CSS (and less)
+  - HTML, CSS, less
+  - Python
 
 Uses the Monokai syntax theme as template, see: https://github.com/kevinsawicki/monokai
