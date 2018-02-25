@@ -1,30 +1,29 @@
 @import 'syntax-variables';
 
 .syntax--python {
-
   &.syntax--class {
-    color: @pink;
+    color: @syntax-keyword;
   }
 
   &.syntax--inherited-class {
-    color: @green !important;
+    color: @syntax-class !important;
   }
 
   &.syntax--function {
-    .syntax--storage {
-      color: @pink !important;
+    &.syntax--storage {
+      color: @syntax-keyword !important;
     }
   }
 
   &.syntax--function-call {
-    color: @blue;
+    color: @syntax-function;
   }
 
   &.syntax--docstring {
-    color: @brown;
+    color: @syntax-comment;
   }
 
   &.syntax--codetag {
-    color: @light-gray !important;
+    color: @syntax-todo !important;
   }
 }
