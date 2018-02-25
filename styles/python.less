@@ -4,7 +4,6 @@
 
   &.syntax--class {
     color: @pink;
-    
   }
 
   &.syntax--inherited-class {
@@ -12,7 +11,6 @@
   }
 
   &.syntax--function {
-    color: @blue !important;
     .syntax--storage {
       color: @pink !important;
     }
@@ -22,20 +20,11 @@
     color: @blue;
   }
 
-  &.syntax--begin,
-  &.syntax--end {
-    color: @ghost-white;
-  }
-
-  &.syntax--block {
+  &.syntax--docstring {
     color: @brown;
-    .syntax--begin, .syntax--end {
-      color: @brown;
-    }
   }
 
-  &.syntax--variable {
-    color: @ghost-white !important;
-    font-style: normal;
+  &.syntax--codetag {
+    color: @light-gray !important;
   }
 }
