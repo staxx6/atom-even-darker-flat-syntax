@@ -110,11 +110,11 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--function {
-    color: @green;
+    color: @blue;
   }
 
   &.syntax--name.syntax--instance {
-    color: @blue;
+    color: @ghost-white;
   }
 
   &.syntax--name.syntax--tag {
@@ -122,11 +122,10 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @green;
+    color: @ghost-white;
   }
 
   &.syntax--other.syntax--inherited-class {
-    text-decoration: none;
     color: @green;
   }
 }
@@ -150,23 +149,34 @@ atom-text-editor {
 
 .syntax--storage {
   color: @pink;
-
-  &.syntax--type {
-    color: @blue;
-  }
-
   &.syntax--todo {
     color: @light-gray;
   }
 }
 
+&.syntax--type {
+  color: @green;
+}
+
+.syntax--annotation {
+  color: @orange !important;
+}
+
 .syntax--punctuation {
   &.syntax--separator {
-    color: @pink;
+    color: @yellow;
+  }
+
+  &.syntax--comment {
+    color: @brown;
   }
 }
 .syntax--string {
   color: @yellow;
+}
+
+.syntax--import {
+  color: @ghost-white;
 }
 
 .syntax--support {
@@ -177,20 +187,19 @@ atom-text-editor {
 
   &.syntax--class,
   &.syntax--type {
-    font-style: italic;
-    color: @blue;
+    color: @green;
   }
 }
 
 .syntax--variable {
+  color: @ghost-white !important;
   &.syntax--parameter {
-    font-style: italic;
-    color: @orange;
+    color: @ghost-white;
   }
 
   // 'this' Javascript
   &.syntax--language.syntax--js {
-    color: @pink;
+    color: @very-pink;
   }
 }
 

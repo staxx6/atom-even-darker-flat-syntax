@@ -1,5 +1,7 @@
 @import 'syntax-variables';
 
+/*
+*/
 .syntax--css {
   &.syntax--class {
     color: @pink !important;
@@ -15,5 +17,15 @@
 
   &.syntax--important {
     color: @very-pink !important;
+  }
+
+  &.syntax--id {
+    color: @pink;
+  }
+
+  &.syntax--comment {
+    &.syntax--begin, &.syntax--end {
+      color: @brown;
+    }
   }
 }
