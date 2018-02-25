@@ -16,4 +16,5 @@ Designed for the even-darker-flat-ui theme: https://atom.io/themes/even-darker-f
   - HTML, CSS, less
   - Python
 
-## Uses the Monokai syntax theme as template, see: https://github.com/kevinsawicki/monokai
+## Credits:
+Uses the Monokai syntax theme as template, see: https://github.com/kevinsawicki/monokai
